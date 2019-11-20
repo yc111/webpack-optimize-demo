@@ -1,4 +1,5 @@
 require('./c.js');
+require('./locallib.js');
 const $ = require('jquery')
 
 function fn() {

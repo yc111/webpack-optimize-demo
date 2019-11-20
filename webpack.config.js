@@ -25,6 +25,12 @@ module.exports = {
                     name: 'vendor',
                     chunks: 'initial',
                     priority: -10
+                },
+                locallib: {  //拆分指定文件
+                    test: /(src\/locallib\.js)$/,
+                    name: 'locallib',
+                    chunks: 'initial',
+                    priority: -9
                 }
             }
         }
