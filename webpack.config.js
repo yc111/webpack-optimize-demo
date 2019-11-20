@@ -10,6 +10,16 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                default: {
+                    name: 'common',
+                    chunks: 'initial'
+                }
+            }
+        }
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './public/index.html',
