@@ -15,7 +15,8 @@ module.exports = {
             cacheGroups: {
                 default: {
                     name: 'common',
-                    chunks: 'initial'
+                    chunks: 'initial',
+                    minChunks: 2  //模块被引用2次以上的才抽离
                 }
             }
         }

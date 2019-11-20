@@ -22,17 +22,6 @@ eval("__webpack_require__(/*! ./c.js */ \"./src/c.js\");\nconst $ = __webpack_re
 
 /***/ }),
 
-/***/ "./src/b.js":
-/*!******************!*\
-  !*** ./src/b.js ***!
-  \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("__webpack_require__(/*! ./c.js */ \"./src/c.js\");\nconst $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n\nfunction fn() {\n    console.log('b-------');\n}\n\nmodule.exports = fn();\n\n//# sourceURL=webpack:///./src/b.js?");
-
-/***/ }),
-
 /***/ "./src/c.js":
 /*!******************!*\
   !*** ./src/c.js ***!
@@ -41,18 +30,6 @@ eval("__webpack_require__(/*! ./c.js */ \"./src/c.js\");\nconst $ = __webpack_re
 /***/ (function(module, exports) {
 
 eval("function fn() {\n    console.log('c-------');\n}\n\nmodule.exports = fn();\n\n//# sourceURL=webpack:///./src/c.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a.js */ \"./src/a.js\");\n/* harmony import */ var _a_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_a_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _b_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b.js */ \"./src/b.js\");\n/* harmony import */ var _b_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_b_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction fn() {\n    console.log('index-------');\n}\n\nfn();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
